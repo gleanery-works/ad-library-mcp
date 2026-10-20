@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.gleanery-works/ad-library",
+  "title": "Ad Library: Google Ads Transparency & LinkedIn Ads",
+  "description": "Every ad a company runs on Google and LinkedIn: copy, creatives, dates, impressions, targeting.",
+  "repository": {
+    "url": "https://github.com/gleanery-works/ad-library-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://apify.com/gleanery_actors/ad-library-scraper",
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com?tools=gleanery_actors/ad-library-scraper",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Optional if your client supports OAuth. Otherwise 'Bearer <Apify API token>' (free account, or a prepaid token from agi.apify.com).",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
