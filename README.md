@@ -4,7 +4,7 @@ One MCP tool that lets Claude, ChatGPT, Cursor or any MCP-compatible agent answe
 
 | Tool | Use it when the user asks... | Returns | Price |
 |---|---|---|---|
-| [`gleanery_actors/ad-library-scraper`](https://apify.com/gleanery_actors/ad-library-scraper) | "What ads is HubSpot running in Germany?", "Compare Pipedrive's and Salesforce's LinkedIn ads", "Show current LinkedIn ads about cybersecurity webinars" | One item per ad from the Google Ads Transparency Center and the LinkedIn Ad Library, details included | $0.003 / ad |
+| [`gleanery_actors/ad-library-scraper`](https://apify.com/gleanery_actors/ad-library-scraper) | "What ads is HubSpot running in Germany?", "Compare Pipedrive's and Salesforce's LinkedIn ads", "Show current LinkedIn ads about cybersecurity webinars" | One item per ad from the Google Ads Transparency Center and the LinkedIn Ad Library, details included | $0.001 / ad |
 
 ## Connect
 
@@ -14,7 +14,7 @@ One MCP tool that lets Claude, ChatGPT, Cursor or any MCP-compatible agent answe
 https://mcp.apify.com?tools=gleanery_actors/ad-library-scraper
 ```
 
-Authentication: OAuth (your client opens an Apify login once), or the header `Authorization: Bearer <APIFY_TOKEN>`. A free Apify account includes $5 of monthly credit, which covers about 1,600 ads. **Agents without an account** can buy a prepaid, spend-capped token over x402 or MPP at [agi.apify.com](https://agi.apify.com) and use it as the Bearer token.
+Authentication: OAuth (your client opens an Apify login once), or the header `Authorization: Bearer <APIFY_TOKEN>`. A free Apify account includes $5 of monthly credit, which covers about 5,000 ads. **Agents without an account** can buy a prepaid, spend-capped token over x402 or MPP at [agi.apify.com](https://agi.apify.com) and use it as the Bearer token.
 
 ### Claude Code
 
